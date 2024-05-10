@@ -1,0 +1,290 @@
+[
+    {
+        "model_name": "Xpulse 200",
+        "model_code": "ABWB",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL01",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xpulse 200T",
+        "model_code": "ABWA",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU01",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xpulse 200 Programmed FI",
+        "model_code": "ABWM",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL05",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xpulse 200 Programmed FI",
+        "model_code": "ABWD",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL02",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xpulse 200 4V",
+        "model_code": "ABWK",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL06",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "XPULSE 200T 4V",
+        "model_code": "ABWW",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU10",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "XPULSE 200 4V",
+        "model_code": "ABWZ",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL08",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xtreme 200S",
+        "model_code": "AABR",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LCU02",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "XTREME 200S 4V",
+        "model_code": "ACND",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU12",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xtreme 200S FI",
+        "model_code": "ACNB",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU08",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Glamour Xtec FI",
+        "model_code": "ACLP",
+        "ble_name": "JAW16_XXXX",
+        "vds_code": "JAW21",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Glamour Xtec FI",
+        "model_code": "ACLP",
+        "ble_name": "JAW16_XXXX",
+        "vds_code": "JAW22",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Glamour Xtec",
+        "model_code": "ACLF",
+        "ble_name": "JAW16_XXXX",
+        "vds_code": "JAW37",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Glamour Xtec",
+        "model_code": "ACLF",
+        "ble_name": "JAW16_XXXX",
+        "vds_code": "JAW38",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Maestro Edge 125 Programmed FI",
+        "model_code": "ABHF",
+        "ble_name": "JFW25_XXXX",
+        "vds_code": "JFW25",
+        "service_type": "Telit",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "MAESTRO EDGE 125",
+        "model_code": "ABHL",
+        "ble_name": "JFW25_XXXX",
+        "vds_code": "JFW55",
+        "service_type": "Telit",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Maestro Edge 125",
+        "model_code": "ABHM",
+        "ble_name": "JFW25_XXXX",
+        "vds_code": "JFW41",
+        "service_type": "Telit",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Pleasure+ FI",
+        "model_code": "AALS",
+        "ble_name": "JFW35_XXXX",
+        "vds_code": "JFW46",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "PLEASURE+ XTEC",
+        "model_code": "AALP",
+        "ble_name": "JFW35_XXXX",
+        "vds_code": "JFW58",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Destini 125 Xtec",
+        "model_code": "ABSD",
+        "ble_name": "JFW24_XXXX",
+        "vds_code": "JFW24",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Splendor+ Xtec",
+        "model_code": "AAEN",
+        "ble_name": "HAW12_XXXX",
+        "vds_code": "HAW17",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Splendor+ Xtec",
+        "model_code": "AAEP",
+        "ble_name": "HAW12_XXXX",
+        "vds_code": "HAW21",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Passion Xtec",
+        "model_code": "AACN",
+        "ble_name": "JAW13_XXXX",
+        "vds_code": "JAW25",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Passion Xtec",
+        "model_code": "AACV",
+        "ble_name": "JAW13_XXXX",
+        "vds_code": "JAW36",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Xoom Xtec",
+        "model_code": "AAWP",
+        "ble_name": "JFW43_XXXX",
+        "vds_code": "JFW43",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "XOOM",
+        "model_code": "AAWY",
+        "ble_name": "JFW43_XXXX",
+        "vds_code": "JFW60",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "SUPER SPLENDOR XTEC",
+        "model_code": "ADGA",
+        "ble_name": "JAW40_XXXX",
+        "vds_code": "JAW40",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Karizma XMR",
+        "model_code": "AACA",
+        "ble_name": "MCU00_XXXX",
+        "vds_code": "MCU00",
+        "service_type": "HMCL",
+        "feature_type": "CommonFeatures"
+    },
+    {
+        "model_name": "Xpulse 200T FI",
+        "model_code": "ABWN",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU09",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Passion Xtec",
+        "model_code": "AACN",
+        "ble_name": "JAW13_XXXX",
+        "vds_code": "JAW26",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "XPULSE 200T 4V",
+        "model_code": "ABWW",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDU06",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "Xpulse 200 4V Rally Edition",
+        "model_code": "ADRA",
+        "ble_name": "HERO_XXXX",
+        "vds_code": "LDL06",
+        "service_type": "Telit+HMCL",
+        "feature_type": "Navigation"
+    },
+    {
+        "model_name": "XTREME 160R 4V",
+        "model_code": "ACRA",
+        "ble_name": "KCU12_XXXX",
+        "vds_code": "KCU11",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "XTREME 160R 4V",
+        "model_code": "ACRA",
+        "ble_name": "KCU12_XXXX",
+        "vds_code": "KCU12",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "SUPER SPLENDOR XTEC",
+        "model_code": "ADGA",
+        "ble_name": "JAW40_XXXX",
+        "vds_code": "JAW39",
+        "service_type": "HMCL",
+        "feature_type": "Commuter feature"
+    },
+    {
+        "model_name": "Mavrick",
+        "model_code": "ACJA",
+        "ble_name": "YGL01_XXXX",
+        "vds_code": "YGL00",
+        "service_type": "HMCL",
+        "feature_type": "CommonFeatures"
+    }
+]
