@@ -17,12 +17,7 @@ jobs:
         uses: actions/setup-xcode@v2
         with:
           xcode-version: '13.0'
-
-#      - name: Install CocoaPods
-#        run: |
-#          gem install cocoapods
-#          pod install
-
+          
       - name: Build and Archive Framework
         run: |
           xcodebuild archive \
