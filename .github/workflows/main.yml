@@ -42,8 +42,8 @@ jobs:
             
       - name: Delete File if Exists
         run: |
-            if exist ./output/RideGuideFramework.xcframework (
-                rm ./output/RideGuideFramework.xcframework
+            if "exist ./output/RideGuideFramework.xcframework" (
+                del ./output/RideGuideFramework.xcframework
             )
         
       - name: Create XCFramework
