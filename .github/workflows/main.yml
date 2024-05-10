@@ -10,6 +10,11 @@ jobs:
     runs-on: macOS-latest
 
     steps:
+      - name: Clean Build Artifacts
+        run: |
+         rm -rf build
+         rm -rf DerivedData
+         
       - name: Checkout Code
         uses: actions/checkout@v2
 
