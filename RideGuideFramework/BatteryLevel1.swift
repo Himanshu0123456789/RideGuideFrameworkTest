@@ -90,3 +90,5 @@ extension batteryLevelInHex {
         self.battery = batteryTower
     }
 }
+
+//
