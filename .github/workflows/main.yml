@@ -26,8 +26,8 @@ jobs:
       - name: Build and Archive Framework
         run: |
           xcodebuild archive \
-            -scheme YourScheme \
-            -destination="generic/platform=iOS" \
-            -archivePath ./output/YourFramework.xcarchive \
+            -scheme RideGuideFramework \
+            -destination="generic/platform=iOS Simulator" \
+            -archivePath ./output/RideGuideFramework-Sim \
             SKIP_INSTALL=NO \
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
