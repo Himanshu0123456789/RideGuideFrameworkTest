@@ -14,7 +14,10 @@ jobs:
         run: |
          rm -rf build
          rm -rf DerivedData
-         
+      
+      - name: Clean Untracked Files
+        run: git clean -dffx
+        
       - name: Checkout Code
         uses: actions/checkout@v2
 
