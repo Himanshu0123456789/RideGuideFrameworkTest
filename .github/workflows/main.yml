@@ -15,8 +15,9 @@ jobs:
          rm -rf build
          rm -rf DerivedData
       
-      - name: Clean Untracked Files
-        run: git clean -dffx
+      - name: Remove Previous Output Folder
+        run: |
+         rm -rf output
         
       - name: Checkout Code
         uses: actions/checkout@v2
