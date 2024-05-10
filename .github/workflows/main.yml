@@ -39,6 +39,17 @@ jobs:
             -archivePath ./output/RideGuideFramework \
             SKIP_INSTALL=NO \
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+            
+      - name: Create XCFramework
+        run: |
+          xcodebuild -create-xcframework \
+            -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
+            -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
+            -output ./output/RideGuideFramework.xcframework
+            -XCFrameworkOptions '-allow-internal-distribution' \
+            -arch arm64 \
+            -arch x86_64
+            
       - name: Access Output Folder
         run: ls output
         
@@ -47,10 +58,5 @@ jobs:
         with:
           name: output-files
           path: output
-#      - name: Create XCFramework
-#        run: |
-#          xcodebuild -create-xcframework \
-#            -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-#            -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-#            -output ./output/RideGuideFramework.xcframework
+      
       
