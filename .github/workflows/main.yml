@@ -32,9 +32,9 @@ jobs:
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
       - name: Create XCFramework
-        run:
+        run: |
           xcodebuild -create-xcframework \
-          ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-          ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-          -output ./output/RideGuideFramework.xcframework
+            -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
+            -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
+            -output ./output/RideGuideFramework.xcframework
       
