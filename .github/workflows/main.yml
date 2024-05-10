@@ -21,5 +21,14 @@ jobs:
             -archivePath ./output/RideGuideFramework-Sim \
             SKIP_INSTALL=NO \
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+            
+      - name: Build and Archive Framework
+        run: |
+          xcodebuild archive \
+            -scheme RideGuideFramework \
+            -destination="generic/platform=iOS" \
+            -archivePath ./output/RideGuideFramework \
+            SKIP_INSTALL=NO \
+            BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
       
