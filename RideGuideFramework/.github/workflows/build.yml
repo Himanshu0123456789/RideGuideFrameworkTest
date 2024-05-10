@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macOS-latest
 
     steps:
       - name: Checkout Code
@@ -17,12 +17,17 @@ jobs:
         uses: actions/setup-xcode@v2
         with:
           xcode-version: '13.0'
-          
+
+      - name: Install CocoaPods (if needed)
+        run: |
+          gem install cocoapods
+          pod install
+
       - name: Build and Archive Framework
         run: |
           xcodebuild archive \
-            -scheme RideGuideFramework \
-            -destination "generic/platform=iOS Simulator" \
-            -archivePath ../output/RideGuideFramework-Sim \
+            -scheme YourScheme \
+            -destination="generic/platform=iOS" \
+            -archivePath ./output/YourFramework.xcarchive \
             SKIP_INSTALL=NO \
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
