@@ -1,19 +1,33 @@
+name: Build and Archive Framework
 
-stages:
-  - build
-  - xcframework
+on:
+  push:
+    branches:
+      - main
 
-build_simulator_archive:
-  stage: build
-  script:
-    - xcodebuild archive \
-        -scheme RideGuideFramework \
-        -destination "generic/platform=iOS Simulator" \
-        -archivePath ../output/RideGuideFramework-Sim \
-        SKIP_INSTALL=NO \
-        BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-  artifacts:
-    paths:
-      - ../output/RideGuideFramework.xcarchive
+jobs:
+  build:
+    runs-on: macos-latest
 
-  timeout: 1h  # Set the timeout to 1 hour
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Xcode
+        uses: actions/setup-xcode@v2
+        with:
+          xcode-version: '13.0'
+
+#      - name: Install CocoaPods
+#        run: |
+#          gem install cocoapods
+#          pod install
+
+      - name: Build and Archive Framework
+        run: |
+          xcodebuild archive \
+            -scheme RideGuideFramework \
+            -destination "generic/platform=iOS Simulator" \
+            -archivePath ../output/RideGuideFramework-Sim \
+            SKIP_INSTALL=NO \
+            BUILD_LIBRARY_FOR_DISTRIBUTION=YES
