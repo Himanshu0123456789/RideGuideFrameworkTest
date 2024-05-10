@@ -40,9 +40,11 @@ jobs:
             SKIP_INSTALL=NO \
             BUILD_LIBRARY_FOR_DISTRIBUTION=YES
             
-      - name: Delete File
+      - name: Delete File if Exists
         run: |
-            rm ./output/RideGuideFramework.xcframework
+            if exist ./output/RideGuideFramework.xcframework (
+                rm ./output/RideGuideFramework.xcframework
+            )
         
       - name: Create XCFramework
         run: |
@@ -50,9 +52,6 @@ jobs:
             -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
             -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
             -output ./output/RideGuideFramework.xcframework
-            -XCFrameworkOptions '-allow-internal-distribution' \
-            -arch arm64 \
-            -arch x86_64
             
       - name: Access Output Folder
         run: ls output
