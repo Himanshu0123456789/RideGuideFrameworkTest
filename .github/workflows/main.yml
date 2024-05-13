@@ -49,7 +49,6 @@ jobs:
       - name: Create XCFramework
         run: |
           xcodebuild -create-xcframework \
-           
             -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
             -output ./output/RideGuideFramework.xcframework
            
