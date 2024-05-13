@@ -26,6 +26,7 @@ jobs:
         run: |
           xcodebuild archive \
             -scheme RideGuideFramework \
+            -configuration "Debug" \
             -sdk iphonesimulator \
             -destination="generic/platform=iOS" \
             -archivePath ./output/RideGuideFramework-Sim \
@@ -36,6 +37,7 @@ jobs:
         run: |
           xcodebuild archive \
             -scheme RideGuideFramework \
+            -configuration "Debug" \
             -sdk iphoneos \
             -destination="generic/platform=iOS" \
             -archivePath ./output/RideGuideFramework \
