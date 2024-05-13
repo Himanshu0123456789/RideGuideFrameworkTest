@@ -50,11 +50,9 @@ jobs:
         run: |
           xcodebuild -create-xcframework \
             -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-            
             -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
-            -output ./output/RideGuideFramework.xcframework
+            -output ./outputXcFramework/RideGuideFramework.xcframework
            
-#                        -framework
       - name: Access Output Folder
         run: ls output
         
@@ -65,3 +63,8 @@ jobs:
           path: output
       
       
+      - name: Upload Artifacts xc framework
+        uses: actions/upload-artifact@v2
+        with:
+          name: outputXcFramework-files
+          path: outputXcFramework
