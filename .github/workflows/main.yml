@@ -50,8 +50,8 @@ jobs:
         run: |
           xcodebuild -create-xcframework \
             -framework ./output/RideGuideFramework.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
+            -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
             -output ./output/RideGuideFramework.xcframework
-#            -framework ./output/RideGuideFramework-Sim.xcarchive/Products/Library/Frameworks/RideGuideFramework.framework \
            
             
       - name: Access Output Folder
