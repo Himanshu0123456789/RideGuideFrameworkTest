@@ -3,7 +3,7 @@ name: Build and Archive Framework
 on:
   push:
     branches:
-      - Dev_Himanshu
+      - main
 
 jobs:
   build:
