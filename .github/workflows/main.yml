@@ -1,7 +1,7 @@
 name: Build and Archive Framework
 
 on:
-  push:
+  pull:
     branches:
       - main
 
